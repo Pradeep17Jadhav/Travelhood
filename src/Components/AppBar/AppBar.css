@@ -1,0 +1,15 @@
+.appbar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    z-index: 999;
+    min-height: 64px;
+    padding: 0px 64px;
+}
+
+.appbar-logo {
+    height: 48px;
+    width: 48px;
+}
