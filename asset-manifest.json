@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Travelhood/static/css/main.df251c5a.chunk.css",
-    "main.js": "/Travelhood/static/js/main.0be428cc.chunk.js",
-    "main.js.map": "/Travelhood/static/js/main.0be428cc.chunk.js.map",
-    "runtime-main.js": "/Travelhood/static/js/runtime-main.3aabf197.js",
-    "runtime-main.js.map": "/Travelhood/static/js/runtime-main.3aabf197.js.map",
-    "static/js/2.0604f7c5.chunk.js": "/Travelhood/static/js/2.0604f7c5.chunk.js",
-    "static/js/2.0604f7c5.chunk.js.map": "/Travelhood/static/js/2.0604f7c5.chunk.js.map",
-    "static/js/3.7eb0e539.chunk.js": "/Travelhood/static/js/3.7eb0e539.chunk.js",
-    "static/js/3.7eb0e539.chunk.js.map": "/Travelhood/static/js/3.7eb0e539.chunk.js.map",
+    "main.css": "/Travelhood/static/css/main.16172c29.chunk.css",
+    "main.js": "/Travelhood/static/js/main.b8c7950b.chunk.js",
+    "main.js.map": "/Travelhood/static/js/main.b8c7950b.chunk.js.map",
+    "runtime-main.js": "/Travelhood/static/js/runtime-main.ac89f7d8.js",
+    "runtime-main.js.map": "/Travelhood/static/js/runtime-main.ac89f7d8.js.map",
+    "static/js/2.d6ab9ee1.chunk.js": "/Travelhood/static/js/2.d6ab9ee1.chunk.js",
+    "static/js/2.d6ab9ee1.chunk.js.map": "/Travelhood/static/js/2.d6ab9ee1.chunk.js.map",
+    "static/js/3.3994fa47.chunk.js": "/Travelhood/static/js/3.3994fa47.chunk.js",
+    "static/js/3.3994fa47.chunk.js.map": "/Travelhood/static/js/3.3994fa47.chunk.js.map",
     "index.html": "/Travelhood/index.html",
-    "static/css/main.df251c5a.chunk.css.map": "/Travelhood/static/css/main.df251c5a.chunk.css.map",
-    "static/js/2.0604f7c5.chunk.js.LICENSE.txt": "/Travelhood/static/js/2.0604f7c5.chunk.js.LICENSE.txt",
+    "static/css/main.16172c29.chunk.css.map": "/Travelhood/static/css/main.16172c29.chunk.css.map",
+    "static/js/2.d6ab9ee1.chunk.js.LICENSE.txt": "/Travelhood/static/js/2.d6ab9ee1.chunk.js.LICENSE.txt",
     "static/media/holiday1.jpg": "/Travelhood/static/media/holiday1.f0c8afce.jpg",
     "static/media/holiday2.png": "/Travelhood/static/media/holiday2.2c36e668.png",
     "static/media/holiday3.png": "/Travelhood/static/media/holiday3.3abf91e0.png",
@@ -22,9 +22,9 @@
     "static/media/trek4.png": "/Travelhood/static/media/trek4.26e362be.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3aabf197.js",
-    "static/js/2.0604f7c5.chunk.js",
-    "static/css/main.df251c5a.chunk.css",
-    "static/js/main.0be428cc.chunk.js"
+    "static/js/runtime-main.ac89f7d8.js",
+    "static/js/2.d6ab9ee1.chunk.js",
+    "static/css/main.16172c29.chunk.css",
+    "static/js/main.b8c7950b.chunk.js"
   ]
 }
