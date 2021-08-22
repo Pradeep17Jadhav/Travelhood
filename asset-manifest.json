@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Travelhood/static/css/main.a0689cb4.chunk.css",
-    "main.js": "/Travelhood/static/js/main.2b7ef163.chunk.js",
-    "main.js.map": "/Travelhood/static/js/main.2b7ef163.chunk.js.map",
+    "main.css": "/Travelhood/static/css/main.e37549df.chunk.css",
+    "main.js": "/Travelhood/static/js/main.0c9ac782.chunk.js",
+    "main.js.map": "/Travelhood/static/js/main.0c9ac782.chunk.js.map",
     "runtime-main.js": "/Travelhood/static/js/runtime-main.aa22dbc9.js",
     "runtime-main.js.map": "/Travelhood/static/js/runtime-main.aa22dbc9.js.map",
     "static/js/2.ff87b474.chunk.js": "/Travelhood/static/js/2.ff87b474.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bd0696c4.chunk.js": "/Travelhood/static/js/3.bd0696c4.chunk.js",
     "static/js/3.bd0696c4.chunk.js.map": "/Travelhood/static/js/3.bd0696c4.chunk.js.map",
     "index.html": "/Travelhood/index.html",
-    "static/css/main.a0689cb4.chunk.css.map": "/Travelhood/static/css/main.a0689cb4.chunk.css.map",
+    "static/css/main.e37549df.chunk.css.map": "/Travelhood/static/css/main.e37549df.chunk.css.map",
     "static/js/2.ff87b474.chunk.js.LICENSE.txt": "/Travelhood/static/js/2.ff87b474.chunk.js.LICENSE.txt",
     "static/media/contact_form.jpg": "/Travelhood/static/media/contact_form.75c77b78.jpg",
     "static/media/holiday1.jpg": "/Travelhood/static/media/holiday1.f0c8afce.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.aa22dbc9.js",
     "static/js/2.ff87b474.chunk.js",
-    "static/css/main.a0689cb4.chunk.css",
-    "static/js/main.2b7ef163.chunk.js"
+    "static/css/main.e37549df.chunk.css",
+    "static/js/main.0c9ac782.chunk.js"
   ]
 }
