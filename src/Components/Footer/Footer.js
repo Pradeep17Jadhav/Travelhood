@@ -18,7 +18,7 @@ export default function Footer(props) {
 
     return (
         <div className="footer">
-            <Grid container spacing={3}>
+            <Grid className="footer-content" container spacing={3}>
                 <Grid className="footer-row-one" item xs={12} sm={4} md={3}>
                     <div className="footer-title">
                         Need Help?

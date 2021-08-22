@@ -1,8 +1,15 @@
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: #222;
-    margin-top: 32px;
+    margin-top: 64px;
     height: auto;
     padding: 48px 64px;
+    
+}
+
+.footer-content {
+    max-width: 1200px;
 }
 
 .footer a {
