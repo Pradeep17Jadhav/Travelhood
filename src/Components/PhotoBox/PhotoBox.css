@@ -1,0 +1,90 @@
+.photobox {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 400px;
+    width: auto;
+    z-index: 0;
+}
+
+.photobox-thumbnail {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    margin-bottom: 16px;
+    background-size: cover !important;
+    background-position: center;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    transition:0.5s;
+}
+
+.photobox-thumbnail:hover {
+    transition: 0.5s;
+    transform:scale(1.1);
+    -webkit-filter: blur(1px);
+    filter: grayscale(100%);
+}
+
+.photobox-content {
+    padding-left: 32px;
+    padding-top: 128px;
+    transition:0.3s;
+    height: 400px;
+}
+
+.photobox-content:hover {
+    padding-left: 32px;
+    padding-top: 96px;
+    transition:0.3s;
+}
+
+.photobox-title {
+    color: #fff;
+    font-size: 32px !important;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.photobox-description {
+    color: #fff;
+    font-size: 16px !important;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.photobox-button {
+    color: #fff;
+    font-size: 16px !important;
+    margin-top: 64px;
+    text-transform: uppercase;
+    transition:0.3s;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.photobox-content:hover > .photobox-button {
+    transition:0.3s;
+    opacity: 1;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #614385 0%, #516395  51%, #614385  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }

@@ -64,9 +64,8 @@ export default function UpcomingTreks(props) {
                 {arrUpcomingTreks.map(
                     trek => {
                         return (
-                            <Grid item xs={12} sm={4} md={3}>
+                            <Grid key = {trek.id} item xs={12} sm={4} md={3}>
                                 <Card
-                                    key = {trek.id}
                                     title = {trek.title}
                                     location = {trek.location}
                                     date = {trek.date}
