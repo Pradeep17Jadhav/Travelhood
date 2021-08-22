@@ -57,3 +57,7 @@
   border-radius: 50px !important;
   transition: 0.5s;
 }
+
+.contact-form-textfield {
+  margin-bottom: 16px !important;
+}
