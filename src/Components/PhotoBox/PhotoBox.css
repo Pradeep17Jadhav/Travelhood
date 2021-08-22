@@ -21,11 +21,12 @@
     transition:0.5s;
 }
 
-.photobox-thumbnail:hover {
+.photobox:hover >.photobox-thumbnail {
     transition: 0.5s;
     transform:scale(1.1);
     -webkit-filter: blur(1px);
-    filter: grayscale(100%);
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
 }
 
 .photobox-content {
@@ -68,23 +69,3 @@
     opacity: 1;
 }
 
-
-.btn-grad {background-image: linear-gradient(to right, #614385 0%, #516395  51%, #614385  100%)}
-.btn-grad {
-   margin: 10px;
-   padding: 15px 45px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
-   display: block;
- }
-
- .btn-grad:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
