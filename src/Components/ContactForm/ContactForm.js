@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './ContactForm.css';
-import { Button, TextField, Dialog, DialogActions, DialogContent, DialogContentText } from '@material-ui/core';
+import { Button, TextField, Dialog, DialogContent, Typography } from '@material-ui/core';
 
 
 export default function ContactForm(props) {
@@ -15,6 +15,12 @@ export default function ContactForm(props) {
                     <div
                         className="contact-form-image"
                         style={{ "background": "url(" + require("../../Resources/contact_form/contact_form.jpg").default + ")" }}>
+                    </div>
+                    <div className="contact-form-title" >
+                        Contact Us
+                    </div>
+                    <div className="contact-form-tagline" >
+                        Feel free to drop us a line below!
                     </div>
                 </div>
 

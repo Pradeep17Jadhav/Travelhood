@@ -23,8 +23,23 @@
     z-index: -1;
     height: 100%;
     width: 100%;
-    -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+}
+
+.contact-form-title {
+    text-align: center;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.contact-form-tagline {
+    text-align: center;
+    font-size: 18px !important;
+    padding-top: 18px;
+    color: #fff;
 }
 
 .contact-form-elements {
