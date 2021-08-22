@@ -1,10 +1,12 @@
 .contact-form {
     border-radius: 30px !important;
+    width: auto;
+    margin: auto;
+    max-width: 600px;
 }
 
 .contact-form-content {
     padding: 0px !important;
-    width: 600px;
     margin: 0px !important;
     overflow: hidden;
 }
