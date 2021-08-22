@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Travelhood/static/css/main.16172c29.chunk.css",
+    "main.css": "/Travelhood/static/css/main.675129f8.chunk.css",
     "main.js": "/Travelhood/static/js/main.b8c7950b.chunk.js",
     "main.js.map": "/Travelhood/static/js/main.b8c7950b.chunk.js.map",
     "runtime-main.js": "/Travelhood/static/js/runtime-main.ac89f7d8.js",
@@ -10,7 +10,7 @@
     "static/js/3.3994fa47.chunk.js": "/Travelhood/static/js/3.3994fa47.chunk.js",
     "static/js/3.3994fa47.chunk.js.map": "/Travelhood/static/js/3.3994fa47.chunk.js.map",
     "index.html": "/Travelhood/index.html",
-    "static/css/main.16172c29.chunk.css.map": "/Travelhood/static/css/main.16172c29.chunk.css.map",
+    "static/css/main.675129f8.chunk.css.map": "/Travelhood/static/css/main.675129f8.chunk.css.map",
     "static/js/2.d6ab9ee1.chunk.js.LICENSE.txt": "/Travelhood/static/js/2.d6ab9ee1.chunk.js.LICENSE.txt",
     "static/media/holiday1.jpg": "/Travelhood/static/media/holiday1.f0c8afce.jpg",
     "static/media/holiday2.png": "/Travelhood/static/media/holiday2.2c36e668.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.ac89f7d8.js",
     "static/js/2.d6ab9ee1.chunk.js",
-    "static/css/main.16172c29.chunk.css",
+    "static/css/main.675129f8.chunk.css",
     "static/js/main.b8c7950b.chunk.js"
   ]
 }
