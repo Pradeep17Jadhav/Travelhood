@@ -24,9 +24,8 @@
 .photobox:hover >.photobox-thumbnail {
     transition: 0.5s;
     transform:scale(1.1);
-    -webkit-filter: blur(1px);
     -webkit-filter: brightness(70%);
-    filter: brightness(70%);
+    filter: brightness(60%);
 }
 
 .photobox-content {

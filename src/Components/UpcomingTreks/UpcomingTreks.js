@@ -1,50 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Card from '../Card/Card';
-import { Typography, Grid, Paper } from '@material-ui/core';
+import { Typography, Grid } from '@material-ui/core';
 import './UpcomingTreks.css';
-import image from '../../Resources/upcoming_treks/trek2.png'
+import arrUpcomingTreks from '../../Resources/data/upcomingTreksData.json';
 
 
 export default function UpcomingTreks(props) {
-    let arrUpcomingTreks = [
-        {
-            id: 0,
-            thumbnail: "trek1.png",
-            title: "Harishchandra Gadh",
-            location: "Nashik, Maharashtra",
-            date: "July 11, 2021",
-            duration: "1 Day",
-            price: "1400"
-        },
-        {
-            id: 1,
-            thumbnail: "trek2.png",
-            title: "Karnala Fort",
-            location: "Panvel, Maharashtra",
-            date: "July 24, 2021",
-            duration: "1 Day",
-            price: "1100"
-        },
-        {
-            id: 2,
-            thumbnail: "trek3.png",
-            title: "Sandhan Valley",
-            location: "Nashik, Maharashtra",
-            date: "Aug 8, 2021",
-            duration: "2 Days",
-            price: "1600"
-        },
-        {
-            id: 3,
-            thumbnail: "trek4.png",
-            title: "Raigad Fort",
-            location: "Raigad, Maharashtra",
-            date: "Aug 27, 2021",
-            duration: "3 Days",
-            price: "2800"
-        },
-    ];
-
     const arrImages = [];
     for (let i = 0; i < arrUpcomingTreks.length; i++) 
     {
@@ -55,9 +16,9 @@ export default function UpcomingTreks(props) {
 
     return (
         <div className="upcomingTreks">
-            <Typography className="heading" variant="h4">
+            <h1>
                 Upcoming Treks
-            </Typography>
+            </h1>
 
 
             <Grid container spacing={3}>

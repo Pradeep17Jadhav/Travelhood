@@ -1,6 +1,8 @@
 .App {
   color: #555;
   width: 100%;
+  font-family: 'Ubuntu', 'Roboto', 'Arial', 'sans-serif' !important;
+
 }
 
 .App-logo {
@@ -11,6 +13,11 @@
 .heading {
   text-align: left;
   padding: 16px 0px;
+}
+
+h4 {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

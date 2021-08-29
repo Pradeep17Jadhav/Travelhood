@@ -35,9 +35,9 @@ export default function Holidays(props) {
 
     return (
         <div className="holidays">
-            <Typography className="heading" variant="h4">
+            <h1>
                 Holidays
-            </Typography>
+            </h1>
 
 
             <Grid container spacing={3}>
