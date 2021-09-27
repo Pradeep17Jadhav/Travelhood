@@ -6,6 +6,7 @@ import UpcomingTreks from './Components/UpcomingTreks/UpcomingTreks';
 import Holidays from './Components/Holidays/Holidays';
 import Footer from './Components/Footer/Footer'
 
+//app file
 function App() {
 
     return (
