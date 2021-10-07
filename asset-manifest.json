@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Travelhood/static/css/main.1b490f87.chunk.css",
-    "main.js": "/Travelhood/static/js/main.e0f533f0.chunk.js",
-    "main.js.map": "/Travelhood/static/js/main.e0f533f0.chunk.js.map",
-    "runtime-main.js": "/Travelhood/static/js/runtime-main.73e11c1b.js",
-    "runtime-main.js.map": "/Travelhood/static/js/runtime-main.73e11c1b.js.map",
-    "static/js/2.e7bfdc71.chunk.js": "/Travelhood/static/js/2.e7bfdc71.chunk.js",
-    "static/js/2.e7bfdc71.chunk.js.map": "/Travelhood/static/js/2.e7bfdc71.chunk.js.map",
-    "static/js/3.b5467dda.chunk.js": "/Travelhood/static/js/3.b5467dda.chunk.js",
-    "static/js/3.b5467dda.chunk.js.map": "/Travelhood/static/js/3.b5467dda.chunk.js.map",
+    "main.js": "/Travelhood/static/js/main.245f8656.chunk.js",
+    "main.js.map": "/Travelhood/static/js/main.245f8656.chunk.js.map",
+    "runtime-main.js": "/Travelhood/static/js/runtime-main.df56cf69.js",
+    "runtime-main.js.map": "/Travelhood/static/js/runtime-main.df56cf69.js.map",
+    "static/js/2.bb8f717e.chunk.js": "/Travelhood/static/js/2.bb8f717e.chunk.js",
+    "static/js/2.bb8f717e.chunk.js.map": "/Travelhood/static/js/2.bb8f717e.chunk.js.map",
+    "static/js/3.8b65d0e8.chunk.js": "/Travelhood/static/js/3.8b65d0e8.chunk.js",
+    "static/js/3.8b65d0e8.chunk.js.map": "/Travelhood/static/js/3.8b65d0e8.chunk.js.map",
     "index.html": "/Travelhood/index.html",
     "static/css/main.1b490f87.chunk.css.map": "/Travelhood/static/css/main.1b490f87.chunk.css.map",
-    "static/js/2.e7bfdc71.chunk.js.LICENSE.txt": "/Travelhood/static/js/2.e7bfdc71.chunk.js.LICENSE.txt",
+    "static/js/2.bb8f717e.chunk.js.LICENSE.txt": "/Travelhood/static/js/2.bb8f717e.chunk.js.LICENSE.txt",
     "static/media/contact_form.jpg": "/Travelhood/static/media/contact_form.75c77b78.jpg",
     "static/media/holiday1.jpg": "/Travelhood/static/media/holiday1.f0c8afce.jpg",
     "static/media/holiday2.png": "/Travelhood/static/media/holiday2.2c36e668.png",
@@ -22,9 +22,9 @@
     "static/media/trek4.png": "/Travelhood/static/media/trek4.26e362be.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.73e11c1b.js",
-    "static/js/2.e7bfdc71.chunk.js",
+    "static/js/runtime-main.df56cf69.js",
+    "static/js/2.bb8f717e.chunk.js",
     "static/css/main.1b490f87.chunk.css",
-    "static/js/main.e0f533f0.chunk.js"
+    "static/js/main.245f8656.chunk.js"
   ]
 }
