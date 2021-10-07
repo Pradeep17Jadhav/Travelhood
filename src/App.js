@@ -10,22 +10,29 @@ import Footer from './Components/Footer/Footer'
 function App() {
 
     return (
-        <Router>
-            <Switch>
-                <Route exact path="/">
-                    <div className="App">
-                        <AppBar></AppBar>
-                        <UpcomingTreks></UpcomingTreks>
-                        <Holidays></Holidays>
-                        <Footer></Footer>
-                    </div>
-                </Route>
+//         <Router>
+//             <Switch>
+//                 <Route exact path="/">
+//                     <div className="App">
+//                         <AppBar></AppBar>
+//                         <UpcomingTreks></UpcomingTreks>
+//                         <Holidays></Holidays>
+//                         <Footer></Footer>
+//                     </div>
+//                 </Route>
 
-                <Route exact path="/about">
-                    <AppBar></AppBar>
-                </Route>
-            </Switch>
-        </Router>
+//                 <Route exact path="/about">
+//                     <AppBar></AppBar>
+//                 </Route>
+//             </Switch>
+//         </Router>
+
+            <div className="App">
+                <AppBar></AppBar>
+                <UpcomingTreks></UpcomingTreks>
+                <Holidays></Holidays>
+                <Footer></Footer>
+            </div>
     );
 }
 
