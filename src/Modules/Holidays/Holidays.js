@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
-import { Typography, Grid } from '@material-ui/core';
-import PhotoBox from '../PhotoBox/PhotoBox';
+import React from 'react';
+import { Grid } from '@material-ui/core';
+import PhotoBox from '../../Components/PhotoBox/PhotoBox';
 import './Holidays.css';
 
 export default function Holidays(props) {
