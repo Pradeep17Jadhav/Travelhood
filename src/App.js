@@ -20,7 +20,6 @@ function App() {
 //                         <Footer></Footer>
 //                     </div>
 //                 </Route>
-
 //                 <Route exact path="/about">
 //                     <AppBar></AppBar>
 //                 </Route>

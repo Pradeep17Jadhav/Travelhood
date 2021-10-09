@@ -1,8 +1,15 @@
+body {
+  font-family: 'Montserrat', 'Roboto', 'Arial', 'sans-serif' !important;
+  font-size: 1em;
+}
+
+a:hover {
+  color: #12b995;
+}
+
 .App {
   color: #555;
   width: 100%;
-  font-family: 'Ubuntu', 'Roboto', 'Arial', 'sans-serif' !important;
-
 }
 
 .App-logo {

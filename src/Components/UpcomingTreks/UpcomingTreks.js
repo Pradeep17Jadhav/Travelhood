@@ -20,7 +20,6 @@ export default function UpcomingTreks(props) {
                 Upcoming Treks
             </h1>
 
-
             <Grid container spacing={3}>
                 {arrUpcomingTreks.map(
                     trek => {
