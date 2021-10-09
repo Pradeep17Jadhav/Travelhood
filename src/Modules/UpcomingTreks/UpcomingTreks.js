@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from '../Card/Card';
-import { Typography, Grid } from '@material-ui/core';
+import Card from '../../Components/Card/Card';
+import { Grid } from '@material-ui/core';
 import './UpcomingTreks.css';
 import arrUpcomingTreks from '../../Resources/data/upcomingTreksData.json';
 
@@ -12,7 +12,6 @@ export default function UpcomingTreks(props) {
         let currImage = arrUpcomingTreks[i].thumbnail;
         arrUpcomingTreks[i]["image"] = require("../../Resources/upcoming_treks/" + currImage).default;
     }
-
 
     return (
         <div className="upcomingTreks">
