@@ -8,7 +8,6 @@ import Footer from '../../Components/Footer/Footer'
 export default function Homepage() {
     return (
         <div className="homepage">
-            {/* <UnderConstruction /> */}
             <AppBar></AppBar>
             <UpcomingTreks></UpcomingTreks>
             <Holidays></Holidays>
