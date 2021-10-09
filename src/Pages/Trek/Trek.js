@@ -2,7 +2,19 @@ import React from 'react';
 import { Grid } from '@material-ui/core';
 import './Trek.css';
 
-export default function Trek() {
+export default function Trek(props) {
+
+    const [arrUpcomingTreks, setArrUpcomingTreks] = useState([]);
+
+    useEffect(() => {
+        axios.get("/trek/" + props.id).then((response) => {
+            console.log(response.data);
+            setArrUpcomingTreks(response.data);
+        });
+    }, []);
+
+    if (!arrUpcomingTreks) return null;
+
     return (
         <div className="trek">
 

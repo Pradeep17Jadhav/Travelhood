@@ -10,11 +10,11 @@ export default function Card(props) {
     return (
         <div className="card">
             <div className="card-thumbnail">
-                <img src={props.image} />
+                <img src={props.thumbnailUrl} />
             </div>
 
             <div className="card-title">
-                <h4>{props.title.toUpperCase()}</h4>
+                <h4>{props.name.toUpperCase()}</h4>
             </div>
 
             <div className="card-location">
