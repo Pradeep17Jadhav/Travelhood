@@ -4,7 +4,7 @@
     align-items: center;
     border-bottom: 1px solid #ddd;
     z-index: 999;
-    min-height: 64px;
+    height: 64px;
     min-width: 100%;
     background-color: #fff;
     padding: 0px 8px;
