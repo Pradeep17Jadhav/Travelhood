@@ -2,12 +2,10 @@ import React, { useState, useEffect } from "react";
 import Card from "../../Components/Card/Card";
 import { Grid } from "@material-ui/core";
 import "./UpcomingTreks.css";
-import arrUpcomingTreks from "../../Resources/data/upcomingTreksData.json";
+import Trek from "../../Pages/Trek/Trek";
 import axios from "axios";
 
 export default function UpcomingTreks(props) {
-    const arrImages = [];
-
     const [arrUpcomingTreks, setArrUpcomingTreks] = useState([]);
 
     useEffect(() => {
@@ -19,6 +17,12 @@ export default function UpcomingTreks(props) {
 
     if (!arrUpcomingTreks) return null;
 
+    let OnTrekClicked = (trekId) => {
+        axios.get("/trek/" + trekId).then((response) => {
+            console.log(response.data);
+        });
+    }
+
     return (
         <div className="upcomingTreks">
             <h1>Upcoming Treks</h1>
@@ -28,12 +32,14 @@ export default function UpcomingTreks(props) {
                     return (
                         <Grid key={trek.id} item xs={12} sm={4} md={3}>
                             <Card
+                                id={trek.id}
                                 name={trek.name}
                                 location={trek.location}
                                 date={trek.date}
                                 duration={trek.duration}
                                 price={trek.price}
                                 thumbnailUrl={trek.thumbnailUrl}
+                                onTrekClicked={OnTrekClicked}
                             ></Card>
                         </Grid>
                     );

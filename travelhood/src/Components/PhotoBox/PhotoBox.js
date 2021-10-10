@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './PhotoBox.css';
 import { Typography, Button } from '@material-ui/core';
 

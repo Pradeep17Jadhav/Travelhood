@@ -25,7 +25,6 @@ export default function Holidays(props) {
         }
     ];
 
-    const arrImages = [];
     for (let i = 0; i < arrHolidays.length; i++) 
     {
         let currImage = arrHolidays[i].thumbnail;

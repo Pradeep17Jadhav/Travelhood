@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactForm.css';
-import { Button, TextField, Dialog, DialogContent, Typography } from '@material-ui/core';
+import { Button, TextField, Dialog, DialogContent } from '@material-ui/core';
 
 
 export default function ContactForm(props) {

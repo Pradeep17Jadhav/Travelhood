@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button, Grid } from '@material-ui/core';
 import './Footer.css';
-import CallIcon from '@material-ui/icons/Call';
 import ContactForm from '../../Components/ContactForm/ContactForm'
 
 
@@ -61,16 +60,16 @@ export default function Footer(props) {
                         Policies
                     </div>
                     <div>
-                        <a href="#">
+                        <a href="http://travelhood.in/">
                             {"Refund & Cancellation Policy"}
                         </a>
-                        <a href="#">
+                        <a href="http://travelhood.in/">
                             {"Privacy and Cookies"}
                         </a>
-                        <a href="#">
+                        <a href="http://travelhood.in/">
                             {"Terms of Service"}
                         </a>
-                        <a href="#">
+                        <a href="http://travelhood.in/">
                             {"General Terms & Conditions"}
                         </a>
                     </div>
@@ -85,13 +84,13 @@ export default function Footer(props) {
                         About Us
                     </div>
                     <div>
-                        <a href="#">
+                        <a href="http://travelhood.in/">
                             {"Our Team"}
                         </a>
-                        <a href="#">
+                        <a href="http://travelhood.in/">
                             {"Our History"}
                         </a>
-                        <a href="#">
+                        <a href="http://travelhood.in/">
                             {"Contact Us"}
                         </a>
                     </div>

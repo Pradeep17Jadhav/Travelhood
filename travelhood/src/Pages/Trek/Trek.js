@@ -1,19 +1,20 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
 import { Grid } from '@material-ui/core';
 import './Trek.css';
+import axios from "axios";
 
 export default function Trek(props) {
 
-    const [arrUpcomingTreks, setArrUpcomingTreks] = useState([]);
+    const [trek, setTrek] = useState([]);
 
     useEffect(() => {
-        axios.get("/trek/" + props.id).then((response) => {
-            console.log(response.data);
-            setArrUpcomingTreks(response.data);
+        axios.get("/trek/" + 0).then((response) => {
+            setTrek(response.data[0]);
+            console.log(response.data[0]);
         });
     }, []);
 
-    if (!arrUpcomingTreks) return null;
+    if (!trek) return null;
 
     return (
         <div className="trek">
@@ -29,13 +30,13 @@ export default function Trek(props) {
 
             <div className="details">
                 <Grid container spacing={3}>
-                    <Grid key={something} item xs={6} sm={3} md={3}>
+                    <Grid key={"1"} item xs={6} sm={3} md={3}>
                     </Grid>
-                    <Grid key={something} item xs={6} sm={3} md={3}>
+                    <Grid key={"2"} item xs={6} sm={3} md={3}>
                     </Grid>
-                    <Grid key={something} item xs={6} sm={3} md={3}>
+                    <Grid key={"3"} item xs={6} sm={3} md={3}>
                     </Grid>
-                    <Grid key={something} item xs={6} sm={3} md={3}>
+                    <Grid key={"4"} item xs={6} sm={3} md={3}>
                     </Grid>
                 </Grid>
             </div>

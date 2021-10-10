@@ -1,6 +1,5 @@
 import React from "react";
 import "./Card.css";
-import { Typography } from "@material-ui/core";
 import LocationOnOutlinedIcon from "@material-ui/icons/LocationOnOutlined";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
 import EventIcon from "@material-ui/icons/Event";
@@ -9,8 +8,8 @@ import EventIcon from "@material-ui/icons/Event";
 export default function Card(props) {
     return (
         <div className="card">
-            <div className="card-thumbnail">
-                <img src={props.thumbnailUrl} />
+            <div className="card-thumbnail" onClick={props.onTrekClicked.bind(null, props.id)}>
+                <img src={props.thumbnailUrl} alt="Thumbnail"/>
             </div>
 
             <div className="card-title">
@@ -31,7 +30,7 @@ export default function Card(props) {
 
             <div className="card-duration">
                 <AccessTimeIcon fontSize="small" />
-                <div className="caption">{props.duration}</div>
+                <div className="caption">{props.duration} Days</div>
             </div>
 
             <div className="card-price">
