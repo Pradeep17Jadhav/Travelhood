@@ -4,12 +4,22 @@
     background-color: #fff;
     padding: 24px 24px;
     margin: 32px 16px;
-    display: block;
+    display: none;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     line-height: 2em;
+    position: fixed;
+    width: 16.5%;
+    max-width: 224px;
 }
+
+@media (min-width: 960px)  {
+    .pricing {
+        display: block;
+    }
+}
+
 
 .pricing .price-box, .pricing .next-date {
     display:inline-block;

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Grid } from '@material-ui/core';
 import './Trek.css';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 import Pricing from "../../Components/Pricing/Pricing";
+import FloatingPricing from "../../Components/FloatingPricing/FloatingPricing";
 import LocationOnOutlinedIcon from "@material-ui/icons/LocationOnOutlined";
 import CheckIcon from '@material-ui/icons/Check';
 import CloseIcon from '@material-ui/icons/Close';
@@ -12,9 +14,12 @@ import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import axios from "axios";
 
 export default function Trek(props) {
-
     const [trek, setTrek] = useState([]);
 
+    let location = { lat: 19.020473, lng: 72.843323 };
+
+
+    let trekDate = new Date(trek.date).toUTCString().substring(5, 17);
     useEffect(() => {
         axios.get("/trek/" + 0).then((response) => {
             setTrek(response.data[0]);
@@ -26,9 +31,13 @@ export default function Trek(props) {
 
     return (
         <div className="trek">
+            <FloatingPricing
+                date={trekDate}
+                price={trek.price}
+            />
             <div className="container">
-                <Grid container className="container-grid" spacing={3}>
-                    <Grid className ="trek-left-section" key="left" item xs={12} md={8}>
+                <Grid container className="container-grid">
+                    <Grid className="trek-left-section" key="left" item xs={12} md={9}>
                         <div className="title">
                             <div className="left">
                                 <h1 className="trek-name">{trek.name}</h1>
@@ -43,8 +52,9 @@ export default function Trek(props) {
                             </div>
                         </div>
 
+
                         <div className="details">
-                            <Grid container spacing={3}>
+                            <Grid container>
                                 <Grid className="details-item" key={"1"} item xs={6} sm={3} md={3}>
                                     <ScheduleIcon />
                                     <div className="details-item-info">
@@ -92,6 +102,7 @@ export default function Trek(props) {
                             </Grid>
                         </div>
 
+
                         <div className="images">
                             <img src={trek.thumbnailUrl} alt={trek.name} />
                         </div>
@@ -103,9 +114,9 @@ export default function Trek(props) {
                             <div className="description">
                                 {trek.highlights}
                                 A well-facilitated campsite nestled on a lush green landscape alongside the banks of Kaluste Dam and surrounded by mystic valleys of the Western Ghats. <br />
-Enjoy campfire with music in the evening and obtain a fun chit chat session with your dear ones to make splendid memories <br />
-Get indulged in multiple indoor/outdoor games along with lake tubing and boating as well. <br />
-Relish the delicious Evening Snacks, Dinner and Breakfast included in the camping in Igatpuri package to calm your hunger cravings
+                                Enjoy campfire with music in the evening and obtain a fun chit chat session with your dear ones to make splendid memories <br />
+                                Get indulged in multiple indoor/outdoor games along with lake tubing and boating as well. <br />
+                                Relish the delicious Evening Snacks, Dinner and Breakfast included in the camping in Igatpuri package to calm your hunger cravings
                             </div>
                         </div>
 
@@ -212,12 +223,32 @@ Relish the delicious Evening Snacks, Dinner and Breakfast included in the campin
                             </div>
                         </div>
 
+
+                        <div className="location-map">
+                            <h2 className="heading">
+                                Location Map
+                            </h2>
+                            <div className="location-map-renderer">
+                                <Map
+                                    google={window.google}
+                                    zoom={18}
+                                    center={location}>
+                                    <Marker key="marker_1"
+                                        position={{
+                                            lat: 47.444,
+                                            lng: -122.176
+                                        }}
+                                    />
+                                </Map>
+                            </div>
+                        </div>
+
                     </Grid>
 
-                    <Grid className ="trek-right-section" key="right" item  xs={12} md={4}>
-                        <Pricing className = "pricing"
+                    <Grid className="trek-right-section" key="right" item xs={12} md={3}>
+                        <Pricing className="pricing"
                             price={trek.price}
-                            date={new Date(trek.date).toUTCString().substring(5, 17)}
+                            date={trekDate}
                         />
                     </Grid>
                 </Grid>
