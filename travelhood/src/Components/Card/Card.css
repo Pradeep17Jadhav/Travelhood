@@ -9,6 +9,12 @@
 .card a {
     color: inherit;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.card a:hover {
+    color: #000;
+    transition: 0.3s;
 }
 
 .card-thumbnail {

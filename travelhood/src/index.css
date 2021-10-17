@@ -1,7 +1,13 @@
+:root {
+  --primary: #00CC99;
+  --text: rgba(0,0,0,87);
+  --FreeSpeechRed: var(--FreeSpeechRed);
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', 'Roboto', 'Arial', 'sans-serif' !important;
-  color: rgba(0,0,0,87);
+  color: var(--text);
   background-color: #f6f8fb;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
