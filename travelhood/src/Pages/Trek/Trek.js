@@ -12,16 +12,18 @@ import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import axios from "axios";
+import { useParams } from 'react-router-dom';
 
 export default function Trek(props) {
     const [trek, setTrek] = useState([]);
+    const id = useParams().id;
 
     let location = { lat: 19.020473, lng: 72.843323 };
 
 
     let trekDate = new Date(trek.date).toUTCString().substring(5, 17);
     useEffect(() => {
-        axios.get("/trek/" + 0).then((response) => {
+        axios.get("/trek/" + id).then((response) => {
             setTrek(response.data[0]);
             console.log(response.data[0]);
         });

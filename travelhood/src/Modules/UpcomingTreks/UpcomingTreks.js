@@ -18,9 +18,7 @@ export default function UpcomingTreks(props) {
     if (!arrUpcomingTreks) return null;
 
     let OnTrekClicked = (trekId) => {
-        axios.get("/trek/" + trekId).then((response) => {
-            console.log(response.data);
-        });
+        window.open("http://localhost:3000/trek/" + trekId , "_self");
     }
 
     return (
@@ -39,7 +37,6 @@ export default function UpcomingTreks(props) {
                                 duration={trek.duration}
                                 price={trek.price}
                                 thumbnailUrl={trek.thumbnailUrl}
-                                onTrekClicked={OnTrekClicked}
                             ></Card>
                         </Grid>
                     );

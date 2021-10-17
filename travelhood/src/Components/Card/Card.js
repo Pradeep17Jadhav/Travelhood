@@ -6,14 +6,20 @@ import EventIcon from "@material-ui/icons/Event";
 
 //card file
 export default function Card(props) {
+    const trekUrl = "http://localhost:3000/trek/" + props.id;
+
     return (
         <div className="card">
-            <div className="card-thumbnail" onClick={props.onTrekClicked.bind(null, props.id)}>
-                <img src={props.thumbnailUrl} alt="Thumbnail"/>
+            <div className="card-thumbnail">
+                <a href={trekUrl}>
+                    <img src={props.thumbnailUrl} alt="Thumbnail" />
+                </a>
             </div>
 
             <div className="card-title">
-                <h4>{props.name.toUpperCase()}</h4>
+                <a href={trekUrl}>
+                    <h4>{props.name.toUpperCase()}</h4>
+                </a>
             </div>
 
             <div className="card-location">
