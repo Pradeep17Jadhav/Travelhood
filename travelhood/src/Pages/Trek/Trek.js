@@ -223,7 +223,7 @@ export default function Trek(props) {
                             </div>
                         </div>
 
-
+{/* 
                         <div className="location-map">
                             <h2 className="heading">
                                 Location Map
@@ -241,7 +241,7 @@ export default function Trek(props) {
                                     />
                                 </Map>
                             </div>
-                        </div>
+                        </div> */}
 
                     </Grid>
 
