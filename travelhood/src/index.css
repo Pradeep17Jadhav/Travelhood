@@ -1,7 +1,7 @@
 :root {
   --primary: #00CC99;
   --text: rgba(0,0,0,87);
-  --FreeSpeechRed: var(--FreeSpeechRed);
+  --FreeSpeechRed: #bf1000;
 }
 
 body {
@@ -27,6 +27,16 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 100vh; */
 }
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.a:hover {
+  transition: 0.3s;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -24,9 +24,9 @@ export default function FloatingPricing(props) {
                 </div>
             </div>
 
-            <div className="contact-booking">
+            <a className="contact-booking" href="https://wa.me/+919664523347" target="_blank">
                 <Button className="button-contact" variant="contained" color="primary" disableElevation>Contact</Button>
-            </div>
+            </a>
         </div>
     )
 }

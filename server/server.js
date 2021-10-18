@@ -37,7 +37,6 @@ app.get("/getTrek", async (req, res) => {
 app.get("/trek/:id", async (req, res) => {
     try {
         const user = await upComingTreks.find({ id : req.params.id});
-        console.log(req.params.id);
         res.json(user);
     } catch (err) {
         res.status(500).json({ message: err.message });

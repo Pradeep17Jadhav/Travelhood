@@ -36,3 +36,21 @@
     font-size: 1.5em;
     font-weight: 600;
 }
+
+
+.pricing .contact-booking {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing button {
+    background-color: #4787E8;
+    padding: 6px 8px;
+    width: 100%;
+}
+.pricing button:hover {
+    background-color: #60a0ff;
+    width: 100%;
+}
